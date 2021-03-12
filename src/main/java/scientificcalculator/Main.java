@@ -1,19 +1,19 @@
-package calculator;
+package scientificcalculator;
 import java.util.Scanner;
 import java.lang.Math;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 
 
-public class ScientificCalculator {
-    private static final Logger logger = LogManager.getLogger(ScientificCalculator.class);
-    static double square_root(double x) {
-        logger.info("Square root operation for value "+ x);
+public class Main {
+  //  private static final Logger logger = LogManager.getLogger(Main.class);
+    public static double square_root(double x) {
+  //      logger.info("Square root operation for value "+ x);
         return Math.sqrt(x);
     }
 
-    static long factorial(int number) {
-        logger.info("Factorial root operation for value "+ number);
+    public static long factorial(int number) {
+  //      logger.info("Factorial root operation for value "+ number);
         long result = 1;
         for (int factor = 2; factor <= number; factor++) {
             result *= factor;
@@ -22,14 +22,14 @@ public class ScientificCalculator {
 
     }
 
-    static double natural_log(double number){
+    public static double natural_log(double number){
 
-        logger.info("Natural Logarithm operation for value "+ number);
+    //    logger.info("Natural Logarithm operation for value "+ number);
         return Math.log(number);
     }
 
-    static double power(double base, double exponent){
-        logger.info("Power operation for base as " + base + " and exponent as "+ exponent);
+    public static double power(double base, double exponent){
+    //    logger.info("Power operation for base as " + base + " and exponent as "+ exponent);
         return Math.pow(base, exponent);
     }
 
@@ -75,7 +75,7 @@ public class ScientificCalculator {
 
 
                 default:
-                    logger.warn("Incorrect option is chosen");
+      //              logger.warn("Incorrect option is chosen");
                     System.out.println("Error! Choice is not correct");
                     return;
             }
