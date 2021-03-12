@@ -1,0 +1,4 @@
+2021-03-12 11:09:56.659 [ScientificCalculator.java] INFO  calculator.ScientificCalculator - Power operation for base as 3.0 and exponent as 4.0
+2021-03-12 11:09:56.664 [ScientificCalculator.java] INFO  calculator.ScientificCalculator - Factorial root operation for value 5
+2021-03-12 11:09:56.665 [ScientificCalculator.java] INFO  calculator.ScientificCalculator - Square root operation for value 16.0
+2021-03-12 11:09:56.666 [ScientificCalculator.java] INFO  calculator.ScientificCalculator - Natural Logarithm operation for value 10.0
