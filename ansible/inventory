@@ -1,0 +1,4 @@
+localhost ansible_user=demonwolf
+
+[ubuntu20]
+192.168.43.77 ansible_user=ansiblenode1
