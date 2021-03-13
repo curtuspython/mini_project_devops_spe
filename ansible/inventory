@@ -1,4 +1,4 @@
-localhost ansible_user=demonwolf
+localhost ansible_user=demonwolf ansible_python_interpreter=/usr/bin/python3
 
 [ubuntu20]
-192.168.43.77 ansible_user=ansiblenode1
+192.168.43.77 ansible_user=ansiblenode1 ansible_python_interpreter=/usr/bin/python3
