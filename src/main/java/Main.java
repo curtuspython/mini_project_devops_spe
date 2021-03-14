@@ -1,4 +1,3 @@
-package scientificcalculator;
 import java.util.Scanner;
 import java.lang.Math;
 //import org.apache.logging.log4j.LogManager;
