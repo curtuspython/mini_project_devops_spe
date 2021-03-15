@@ -1,57 +1,10 @@
-2021-03-12 11:09:56.659 [ScientificCalculator.java] INFO  calculator.ScientificCalculator - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 11:09:56.664 [ScientificCalculator.java] INFO  calculator.ScientificCalculator - Factorial root operation for value 5
-2021-03-12 11:09:56.665 [ScientificCalculator.java] INFO  calculator.ScientificCalculator - Square root operation for value 16.0
-2021-03-12 11:09:56.666 [ScientificCalculator.java] INFO  calculator.ScientificCalculator - Natural Logarithm operation for value 10.0
-2021-03-12 13:07:22.593 [Main.java] INFO  calculator.Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:07:22.597 [Main.java] INFO  calculator.Main - Factorial root operation for value 5
-2021-03-12 13:07:22.598 [Main.java] INFO  calculator.Main - Square root operation for value 16.0
-2021-03-12 13:07:22.598 [Main.java] INFO  calculator.Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:10:25.805 [Main.java] INFO  calculator.Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:10:25.810 [Main.java] INFO  calculator.Main - Factorial root operation for value 5
-2021-03-12 13:10:25.811 [Main.java] INFO  calculator.Main - Square root operation for value 16.0
-2021-03-12 13:10:25.812 [Main.java] INFO  calculator.Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:16:38.989 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:16:38.993 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 13:16:38.994 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:16:38.995 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:17:24.957 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:17:40.166 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:17:40.171 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 13:17:40.172 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:17:40.173 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:23:50.292 [Main.java] INFO  ScientificCalculator.Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:23:50.296 [Main.java] INFO  ScientificCalculator.Main - Factorial root operation for value 5
-2021-03-12 13:23:50.297 [Main.java] INFO  ScientificCalculator.Main - Square root operation for value 16.0
-2021-03-12 13:23:50.298 [Main.java] INFO  ScientificCalculator.Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:24:00.434 [Main.java] INFO  ScientificCalculator.Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:24:00.439 [Main.java] INFO  ScientificCalculator.Main - Factorial root operation for value 5
-2021-03-12 13:24:00.440 [Main.java] INFO  ScientificCalculator.Main - Square root operation for value 16.0
-2021-03-12 13:24:00.441 [Main.java] INFO  ScientificCalculator.Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:28:26.025 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:28:26.029 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 13:28:26.031 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:28:26.032 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:32:25.098 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:32:25.104 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 13:32:25.105 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:32:25.106 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:33:31.434 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:33:31.438 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 13:33:31.439 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:33:31.440 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:35:49.468 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:35:49.472 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 13:35:49.472 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:35:49.473 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:43:28.000 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:43:28.004 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 13:43:28.005 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:43:28.006 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
-2021-03-12 13:44:55.662 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 13:44:55.668 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 13:44:55.669 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 13:44:55.670 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
-2021-03-12 14:32:06.848 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
-2021-03-12 14:32:06.854 [Main.java] INFO  Main - Factorial root operation for value 5
-2021-03-12 14:32:06.855 [Main.java] INFO  Main - Square root operation for value 16.0
-2021-03-12 14:32:06.856 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
+2021-03-15 11:04:36.579 [Main.java] INFO  Main - Power operation for base as 3.0 and exponent as 4.0
+2021-03-15 11:04:36.585 [Main.java] INFO  Main - Factorial root operation for value 5
+2021-03-15 11:04:36.586 [Main.java] INFO  Main - Square root operation for value 16.0
+2021-03-15 11:04:36.588 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
+2021-03-15 11:06:17.137 [Main.java] INFO  Main - Square root operation for value 12.0
+2021-03-15 11:07:36.475 [Main.java] INFO  Main - Factorial root operation for value 5
+2021-03-15 11:07:43.830 [Main.java] INFO  Main - Natural Logarithm operation for value 145.0
+2021-03-15 11:07:49.248 [Main.java] INFO  Main - Factorial root operation for value 10
+2021-03-15 11:07:56.548 [Main.java] INFO  Main - Factorial root operation for value 100
+2021-03-15 11:08:11.182 [Main.java] INFO  Main - Natural Logarithm operation for value 567.0
