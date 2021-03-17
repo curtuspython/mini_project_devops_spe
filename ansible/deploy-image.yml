@@ -5,5 +5,5 @@
   tasks:
     - name: Pull Calculator image
       docker_image:
-        name: demonwolf1998/calculator-spe-4
+        name: demonwolf1998/spe-mini-project-final-1
         source: pull
