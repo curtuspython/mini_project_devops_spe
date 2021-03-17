@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
     public static double square_root(double x) {
-        logger.info("Square root operation for value "+ x);
+        logger.info("square_root"+ x);
         return Math.sqrt(x);
     }
 
@@ -38,48 +38,72 @@ public class Main {
         do {
             System.out.println("************************ OPERATIONS MENU *************************");
             System.out.println("Enter your choice :");
-            System.out.println("1. Square Root");
-            System.out.println("2. Factorial");
-            System.out.println("3. Natural Logarithm");
-            System.out.println("4. Power");
-
+            System.out.println("1. Square Root Function");
+            System.out.println("2. Factorial Function");
+            System.out.println("3. Natural Logarithm Function");
+            System.out.println("4. Power Function");
+            try{
             // n
-            int choice = reader.nextInt();
+            char choice = reader.next().charAt(0);
             switch (choice) {
-                case 1:
+                case '1':
 
                     System.out.println("Enter the number to calculate square root :");
-                    double x = reader.nextDouble();
-                    System.out.println("Answer: " +square_root(x));
+                    try{
+                        double x = reader.nextDouble();
+                        System.out.println("Answer: " +square_root(x));
+                    }
+                    catch(Exception ie){
+                        logger.error("Input type mismatch.");
+                        System.out.println("Enter correct double input only.:<");
+                    }
+
                     break;
 
-                case 2:
+                case '2':
                     System.out.println("Enter the number to calculate factorial : ");
-                    int y = reader.nextInt();
-                    System.out.println("Answer: " + factorial(y));
+                    try {
+                        int y = reader.nextInt();
+                        System.out.println("Answer: " + factorial(y));
+                    }
+                    catch (Exception ie){
+                        logger.error("Input type mismatch.");
+                        System.out.println("Enter correct integer input only.:<");
+                    }
                     break;
 
-                case 3:
+                case '3':
                     System.out.print("Enter the number to calculate natural logarithm :");
-                    double z = reader.nextDouble();
-                    System.out.println("Answer: "+ natural_log(z));
+
+                    try{double z = reader.nextDouble();
+                    System.out.println("Answer: "+ natural_log(z));}
+                    catch (Exception ie){
+                        logger.error("Input type mismatch.");
+                        System.out.println("Enter correct double input only.:<");
+                    }
                     break;
 
-                case 4:
+                case '4':
                     System.out.println("Enter the base and the exponent :");
+                    try{
                     double a = reader.nextDouble();
                     double b = reader.nextDouble();
-                    System.out.println("Answer: "+ power(a, b));
+                    System.out.println("Answer: "+ power(a, b));}
+                    catch(Exception ie){
+                        logger.error("Input type mismatch.");
+                        System.out.println("Enter correct double input only.:<");
+                    }
                     break;
 
 
                 default:
                     logger.warn("Incorrect option is chosen");
                     System.out.println("Error! Choice is not correct");
-                    return;
+                    break;
             }
-            System.out.println("Want to perform more operations??(Enter Y/y for yes)");
-            input = reader.next().charAt(0);
+            System.out.println("Want to perform more operations??(Enter Y/y for yes)");}
+            finally{
+            input = reader.next().charAt(0);}
         } while (input == 'Y' || input == 'y');
     }
 }

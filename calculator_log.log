@@ -8,3 +8,19 @@
 2021-03-15 11:07:49.248 [Main.java] INFO  Main - Factorial root operation for value 10
 2021-03-15 11:07:56.548 [Main.java] INFO  Main - Factorial root operation for value 100
 2021-03-15 11:08:11.182 [Main.java] INFO  Main - Natural Logarithm operation for value 567.0
+2021-03-17 12:49:15.425 [Main.java] INFO  Main - Square root operation for value 12.0
+2021-03-17 12:49:22.541 [Main.java] INFO  Main - Square root operation for value -10.0
+2021-03-17 12:55:46.061 [Main.java] WARN  Main - Incorrect option is chosen
+2021-03-17 12:59:22.469 [Main.java] ERROR Main - Input type mismatch.
+2021-03-17 13:04:10.639 [Main.java] ERROR Main - Input type mismatch.
+2021-03-17 13:05:32.360 [Main.java] INFO  Main - square_root13.2
+2021-03-17 13:10:46.169 [Main.java] ERROR Main - Input type mismatch.
+2021-03-17 13:12:26.631 [Main.java] INFO  Main - square_root12.3
+2021-03-17 13:12:31.081 [Main.java] WARN  Main - Incorrect option is chosen
+2021-03-17 13:13:18.809 [Main.java] ERROR Main - Input type mismatch.
+2021-03-17 13:15:18.432 [Main.java] INFO  Main - Power operation for base as 4.0 and exponent as 4.0
+2021-03-17 13:15:18.436 [Main.java] INFO  Main - Factorial root operation for value 6
+2021-03-17 13:15:18.437 [Main.java] INFO  Main - square_root81.0
+2021-03-17 13:15:18.438 [Main.java] INFO  Main - Natural Logarithm operation for value 10.0
+2021-03-17 13:15:51.494 [Main.java] WARN  Main - Incorrect option is chosen
+2021-03-17 13:16:00.588 [Main.java] INFO  Main - Factorial root operation for value 12
